@@ -1,0 +1,20 @@
+html {
+  background-image: url("http://wallpaper-gallery.net/images/background-images-for-websites/background-images-for-websites-24.jpg");
+}
+
+#mainBody {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table {
+  margin: 1em auto;
+}
+
+#app {
+  margin: 3em auto;
+  border: 1px solid black;
+  width: 30%;
+  background-color: white;
+}
