@@ -26,7 +26,7 @@ export default class App extends React.Component {
   render() {
     return (
         <div>
-          <h1>React ToDos App</h1>
+          <h1>React To-Do's App</h1>
           <CreateToDo 
             todos={this.state.todos}
             createTask={this.createTask.bind(this)}

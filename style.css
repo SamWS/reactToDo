@@ -1,6 +1,7 @@
 html {
-  background-image: url("http://wallpaper-gallery.net/images/background-images-for-websites/background-images-for-websites-24.jpg");
-}
+    background-color: black;
+    background: linear-gradient(to right, black , silver);
+  }
 
 #mainBody {
   margin: auto;
@@ -17,4 +18,20 @@ table {
   border: 1px solid black;
   width: 30%;
   background-color: white;
+}
+
+input {
+  padding: 0.2em;
+  margin: 0.3em;
+}
+
+button {
+  margin: 0.3em;
+  background-color: gold;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+th {
+  border-bottom: 1px solid grey;
 }

@@ -13,7 +13,8 @@ export default class ToDosListItem  extends React.Component {
     const { task, isCompleted } = this.props;
 
     const taskStyle = {
-      color: isCompleted ? 'grey' : 'red',
+      color: isCompleted ? 'grey' : 'black',
+      fontWeight: isCompleted ? 'normal' : 'bold',
       textDecoration: isCompleted ? "line-through" : "none",
       opacity: isCompleted ? "0.5" : "1",
       curson: 'pointer'
